@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt – Gebr. Rosenbaum</title>
+  <meta name="description" content="Kontaktieren Sie Gebr. Rosenbaum – wir freuen uns auf Ihre Anfrage.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="container">
+        <div>
+          <span data-lang-de>📞 +49 (0) 123 456 789 &nbsp;|&nbsp; ✉ info@rosenbaum-bau.de</span>
+          <span data-lang-en>📞 +49 (0) 123 456 789 &nbsp;|&nbsp; ✉ info@rosenbaum-bau.de</span>
+        </div>
+        <div class="lang-switch">
+          <button data-lang="de" class="active">DE</button>
+          <button data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">GR</div>
+          <div class="logo-text">
+            <span class="company-name">Gebr. Rosenbaum</span>
+            <span class="company-tagline" data-lang-de>Bau · Holz · Forst</span>
+            <span class="company-tagline" data-lang-en>Construction · Timber · Forestry</span>
+          </div>
+        </a>
+        <button class="menu-toggle" aria-label="Menü"><span></span><span></span><span></span></button>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html" data-lang-de>Startseite</a><a href="index.html" data-lang-en>Home</a></li>
+            <li><a href="about.html" data-lang-de>Über uns</a><a href="about.html" data-lang-en>About Us</a></li>
+            <li><a href="services.html" data-lang-de>Leistungen</a><a href="services.html" data-lang-en>Services</a></li>
+            <li><a href="references.html" data-lang-de>Referenzen</a><a href="references.html" data-lang-en>References</a></li>
+            <li><a href="career.html" data-lang-de>Karriere</a><a href="career.html" data-lang-en>Career</a></li>
+            <li><a href="contact.html" data-lang-de>Kontakt</a><a href="contact.html" data-lang-en>Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html" data-lang-de>Startseite</a><a href="index.html" data-lang-en>Home</a>
+        <span class="sep">/</span>
+        <span class="current" data-lang-de>Kontakt</span>
+        <span class="current" data-lang-en>Contact</span>
+      </div>
+      <h1 data-lang-de>Kontakt</h1>
+      <h1 data-lang-en>Contact</h1>
+      <p data-lang-de>Wir freuen uns auf Ihre Nachricht – ob Projektanfrage, Bewerbung oder allgemeine Frage.</p>
+      <p data-lang-en>We look forward to your message – whether project inquiry, application, or general question.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="contact-grid fade-in">
+        <!-- Form -->
+        <div class="contact-form">
+          <h2 data-lang-de style="margin-bottom:24px;font-size:1.5rem">Schreiben Sie uns</h2>
+          <h2 data-lang-en style="margin-bottom:24px;font-size:1.5rem">Write to Us</h2>
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label data-lang-de for="name">Name *</label>
+                <label data-lang-en for="name">Name *</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label data-lang-de for="email">E-Mail *</label>
+                <label data-lang-en for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label data-lang-de for="phone">Telefon</label>
+                <label data-lang-en for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              <div class="form-group">
+                <label data-lang-de for="subject">Betreff *</label>
+                <label data-lang-en for="subject">Subject *</label>
+                <select id="subject" name="subject" required>
+                  <option value="" data-lang-de>Bitte wählen...</option>
+                  <option value="" data-lang-en>Please select...</option>
+                  <option value="zimmerei" data-lang-de>Zimmerei & Holzbau</option>
+                  <option value="zimmerei" data-lang-en>Carpentry & Timber</option>
+                  <option value="komplett" data-lang-de>Komplett-Lösungen</option>
+                  <option value="komplett" data-lang-en>Complete Solutions</option>
+                  <option value="forst" data-lang-de>Forstwirtschaft</option>
+                  <option value="forst" data-lang-en>Forestry</option>
+                  <option value="karriere" data-lang-de>Bewerbung / Karriere</option>
+                  <option value="karriere" data-lang-en>Application / Career</option>
+                  <option value="sonstiges" data-lang-de>Sonstiges</option>
+                  <option value="sonstiges" data-lang-en>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label data-lang-de for="message">Ihre Nachricht *</label>
+              <label data-lang-en for="message">Your Message *</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group" style="font-size:0.82rem;color:var(--color-text-muted)">
+              <label style="display:flex;align-items:flex-start;gap:8px;font-weight:400;cursor:pointer">
+                <input type="checkbox" required style="margin-top:3px;width:auto">
+                <span data-lang-de>Ich habe die <a href="privacy.html">Datenschutzerklärung</a> gelesen und bin mit der Verarbeitung meiner Daten einverstanden. *</span>
+                <span data-lang-en>I have read the <a href="privacy.html">privacy policy</a> and agree to the processing of my data. *</span>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-green" data-lang-de>Nachricht senden</button>
+            <button type="submit" class="btn btn-green" data-lang-en>Send Message</button>
+          </form>
+        </div>
+
+        <!-- Info -->
+        <div class="contact-info-box">
+          <div class="contact-card">
+            <div class="contact-card-icon">📍</div>
+            <div>
+              <h3 data-lang-de>Adresse</h3>
+              <h3 data-lang-en>Address</h3>
+              <p>Gebr. Rosenbaum GmbH<br>Musterstraße 12<br>12345 Musterstadt</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">📞</div>
+            <div>
+              <h3 data-lang-de>Telefon</h3>
+              <h3 data-lang-en>Phone</h3>
+              <p>+49 (0) 123 456 789</p>
+              <p data-lang-de style="font-size:0.82rem;color:var(--color-text-muted)">Mo–Fr: 7:00–17:00 Uhr</p>
+              <p data-lang-en style="font-size:0.82rem;color:var(--color-text-muted)">Mon–Fri: 7:00 AM–5:00 PM</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon">✉️</div>
+            <div>
+              <h3>E-Mail</h3>
+              <p><a href="mailto:info@rosenbaum-bau.de">info@rosenbaum-bau.de</a></p>
+            </div>
+          </div>
+
+          <!-- Map Placeholder -->
+          <div class="map-placeholder">
+            <div>
+              <p data-lang-de>🗺️ Google Maps – Platzhalter<br><small>Hier wird die Karte eingebunden</small></p>
+              <p data-lang-en>🗺️ Google Maps – Placeholder<br><small>Map will be embedded here</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <a href="index.html" class="logo" style="margin-bottom:8px">
+            <div class="logo-icon">GR</div>
+            <div class="logo-text"><span class="company-name" style="color:#fff">Gebr. Rosenbaum</span></div>
+          </a>
+          <p data-lang-de>Ihr zuverlässiger Partner für Zimmerei, Holzbau, Komplett-Lösungen und Forstwirtschaft – seit Generationen.</p>
+          <p data-lang-en>Your reliable partner for carpentry, timber construction, complete solutions, and forestry – for generations.</p>
+        </div>
+        <div class="footer-col">
+          <h3 data-lang-de>Leistungen</h3><h3 data-lang-en>Services</h3>
+          <ul>
+            <li><a href="services.html#zimmerei" data-lang-de>Zimmerei & Holzbau</a><a href="services.html#zimmerei" data-lang-en>Carpentry</a></li>
+            <li><a href="services.html#komplett" data-lang-de>Komplett-Lösungen</a><a href="services.html#komplett" data-lang-en>Complete Solutions</a></li>
+            <li><a href="services.html#forst" data-lang-de>Forstwirtschaft</a><a href="services.html#forst" data-lang-en>Forestry</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 data-lang-de>Unternehmen</h3><h3 data-lang-en>Company</h3>
+          <ul>
+            <li><a href="about.html" data-lang-de>Über uns</a><a href="about.html" data-lang-en>About Us</a></li>
+            <li><a href="references.html" data-lang-de>Referenzen</a><a href="references.html" data-lang-en>References</a></li>
+            <li><a href="career.html" data-lang-de>Karriere</a><a href="career.html" data-lang-en>Career</a></li>
+            <li><a href="contact.html" data-lang-de>Kontakt</a><a href="contact.html" data-lang-en>Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 data-lang-de>Kontakt</h3><h3 data-lang-en>Contact</h3>
+          <ul>
+            <li style="color:rgba(255,255,255,0.7);font-size:0.9rem">Gebr. Rosenbaum GmbH</li>
+            <li style="color:rgba(255,255,255,0.7);font-size:0.9rem">Musterstraße 12</li>
+            <li style="color:rgba(255,255,255,0.7);font-size:0.9rem">12345 Musterstadt</li>
+            <li style="margin-top:8px"><a href="tel:+49123456789">+49 (0) 123 456 789</a></li>
+            <li><a href="mailto:info@rosenbaum-bau.de">info@rosenbaum-bau.de</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Gebr. Rosenbaum GmbH</span>
+        <div class="footer-legal">
+          <a href="imprint.html" data-lang-de>Impressum</a><a href="imprint.html" data-lang-en>Imprint</a>
+          <a href="privacy.html" data-lang-de>Datenschutz</a><a href="privacy.html" data-lang-en>Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
